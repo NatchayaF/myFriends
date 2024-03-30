@@ -1,0 +1,133 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #FFE5E5;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #ff4e95;
+}
+
+#messageDiv {
+    color: #cf595d;
+    font-weight: bolder;
+    font-size: 13px;
+}
+
+#friendCount {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+}
+
+button {
+    background-color: #FF90BC;
+    color: white; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 15px;
+}
+
+button:hover {
+    background-color: #FF70A3;
+}
+
+#friendInputs {
+    margin-bottom: 18px;
+    margin-top: 18px;
+}
+
+.friendInput input[type="text"],
+.friendInput input[type="number"] {
+    border: 2px solid pink; 
+    border-radius: 10px; 
+    padding: 8px; 
+    margin: 5px; 
+    font-size: 16px; 
+}
+
+/* when it's in focus */
+.friendInput input[type="text"]:focus,
+.friendInput input[type="number"]:focus {
+    border-color: rgb(236, 128, 146); /* Change the border color to pink when focused */
+    outline: none; /* Remove the default focus outline */
+}
+
+.total-age-btn {
+    background-color: #867dbb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.average-age-btn {
+    background-color: #E493B3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.youngest-friend-btn {
+    background-color: #e09bca;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.oldest-friend-btn {
+    background-color: #AD88C6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.reset-btn {
+    background-color: #ed5b5b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+
